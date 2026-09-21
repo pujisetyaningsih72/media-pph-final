@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pajak Penghasilan Final | Media Pembelajaran Interaktif</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===================== SIDEBAR NAVIGASI ===================== -->
+<nav class="sidebar" id="sidebar">
+  <div class="brand">
+    <div class="brand-mark">PF</div>
+    <div class="brand-text">
+      <strong>Pajak Penghasilan Final</strong>
+      <span>Akuntansi &amp; Keuangan Lembaga</span>
+    </div>
+  </div>
+
+  <ul class="nav-list">
+    <li><button class="nav-item active" data-target="beranda"><span class="nav-icon">⌂</span>Beranda</button></li>
+    <li><button class="nav-item" data-target="teori"><span class="nav-icon">▤</span>Teori Dasar</button></li>
+    <li><button class="nav-item" data-target="lkpd"><span class="nav-icon">✎</span>LKPD</button></li>
+    <li><button class="nav-item" data-target="quiz"><span class="nav-icon">◈</span>Quiz</button></li>
+    <li><button class="nav-item" data-target="evaluasi"><span class="nav-icon">✓</span>Evaluasi</button></li>
+    <li><button class="nav-item" data-target="nilai"><span class="nav-icon">▦</span>Daftar Nilai</button></li>
+  </ul>
+
+  <div class="sidebar-footer">
+    <p>Disusun oleh</p>
+    <strong>Puji Setyaningsih, S.Pd.</strong>
+    <span>SMKN 1 Purwodadi</span>
+  </div>
+</nav>
+
+<button class="menu-toggle" id="menuToggle" aria-label="Buka menu">☰</button>
+
+<!-- ===================== KONTEN ===================== -->
+<main class="content">
+
+  <!-- ============ BERANDA ============ -->
+  <section id="beranda" class="page active">
+    <div class="hero">
+      <p class="hero-eyebrow">Konsentrasi Keahlian &middot; Akuntansi dan Keuangan Lembaga</p>
+      <h1>Pajak Penghasilan Final</h1>
+      <p class="hero-desc">
+        Media pembelajaran interaktif ini mengajak kalian memahami konsep Pajak Penghasilan
+        (PPh) yang bersifat final &mdash; mulai dari pengertian, jenis objek dan tarifnya,
+        cara menghitung, hingga cara mencatat dan melaporkannya &mdash; lengkap dengan lembar
+        kerja, permainan, dan evaluasi akhir.
+      </p>
+      <div class="hero-actions">
+        <button class="btn btn-primary" data-goto="teori">Mulai Belajar Teori</button>
+        <button class="btn btn-ghost" data-goto="lkpd">Lihat LKPD</button>
+      </div>
+    </div>
+
+    <div class="hero-grid">
+      <div class="hero-card">
+        <span class="hero-card-num">01</span>
+        <h3>Teori Dasar</h3>
+        <p>Konsep PPh Final, jenis objek, dan tarifnya secara rinci dan interaktif.</p>
+      </div>
+      <div class="hero-card">
+        <span class="hero-card-num">02</span>
+        <h3>LKPD</h3>
+        <p>Tiga aktivitas praktik menghitung &amp; mencatat PPh Final, unduh &amp; kirim tugas.</p>
+      </div>
+      <div class="hero-card">
+        <span class="hero-card-num">03</span>
+        <h3>Quiz</h3>
+        <p>Permainan drag &amp; drop serta cari kata seputar istilah PPh Final.</p>
+      </div>
+      <div class="hero-card">
+        <span class="hero-card-num">04</span>
+        <h3>Evaluasi</h3>
+        <p>20 soal (10 PG + 5 PG Kompleks + 5 esai) dengan skor otomatis.</p>
+      </div>
+    </div>
+
+    <div class="author-panel">
+      <div class="author-avatar">PS</div>
+      <div>
+        <h4>Penyusun Materi</h4>
+        <p><strong>Puji Setyaningsih, S.Pd.</strong> &mdash; SMK Negeri 1 Purwodadi</p>
+        <p class="muted">Mata Pelajaran: Konsentrasi Keahlian Akuntansi dan Keuangan Lembaga</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TEORI DASAR ============ -->
+  <section id="teori" class="page">
+    <header class="page-head">
+      <p class="page-eyebrow">Teori Dasar</p>
+      <h2>Memahami Pajak Penghasilan Final</h2>
+      <p class="page-lead">Pelajari konsep, jenis objek, dan tarif PPh Final. Klik setiap kartu untuk membuka penjelasan lengkap.</p>
+    </header>
+
+    <article class="theory-block">
+      <h3>1. Apa itu PPh Final?</h3>
+      <p>Pajak Penghasilan (PPh) Final adalah pajak yang dikenakan atas jenis penghasilan
+      tertentu, yang pelunasannya bersifat <strong>final</strong> &mdash; artinya PPh yang sudah
+      dipotong/dipungut/dibayar sendiri oleh Wajib Pajak <strong>tidak dapat diperhitungkan
+      kembali (dikreditkan)</strong> sebagai pengurang PPh terutang pada Surat Pemberitahuan
+      (SPT) Tahunan. Penghasilan yang dikenakan PPh Final juga <strong>tidak digabungkan</strong>
+      dengan penghasilan lain yang dikenakan tarif umum (progresif) dalam menghitung PPh terutang.</p>
+      <p>Skema ini berbeda dengan PPh Tidak Final (misalnya PPh Pasal 21 atas gaji karyawan atau
+      PPh Pasal 23 atas jasa), yang potongannya masih bisa diperhitungkan sebagai kredit pajak di
+      akhir tahun.</p>
+      <div class="triangle-cards">
+        <div class="tri-card">
+          <h4>Tarif Tetap</h4>
+          <p>Dikenakan dengan persentase tertentu dari jumlah bruto penghasilan, tidak mengikuti tarif progresif Pasal 17.</p>
+        </div>
+        <div class="tri-card">
+          <h4>Tidak Dapat Dikreditkan</h4>
+          <p>PPh yang sudah dipotong bersifat final, tidak mengurangi PPh terutang tahunan.</p>
+        </div>
+        <div class="tri-card">
+          <h4>Tetap Dilaporkan</h4>
+          <p>Meski tidak digabung, penghasilan dan PPh Final-nya tetap wajib dicantumkan dalam SPT Tahunan.</p>
+        </div>
+      </div>
+      <p class="callout">
+        <strong>Tujuan skema PPh Final:</strong> menyederhanakan administrasi perpajakan dan
+        memberi kepastian hukum, terutama untuk penghasilan yang sulit ditelusuri biaya
+        perolehannya (misalnya bunga deposito) atau untuk mendukung kemudahan usaha kecil (UMKM).
+      </p>
+    </article>
+
+    <article class="theory-block">
+      <h3>2. Jenis-Jenis Objek PPh Final &amp; Tarifnya</h3>
+      <p>Dasar hukum utama PPh Final adalah Pasal 4 ayat (2) Undang-Undang PPh. Klik judul untuk membuka rinciannya.</p>
+
+      <div class="accordion" id="accordion-pasar">
+        <div class="acc-item">
+          <button class="acc-trigger">
+            <span class="acc-badge acc-badge-blue">A</span>
+            Bunga, Dividen &amp; Hadiah <span class="acc-sub">(tarif final atas penghasilan modal &amp; hadiah)</span>
+            <span class="acc-chevron">⌄</span>
+          </button>
+          <div class="acc-panel">
+            <div class="instrument-grid">
+              <div class="instrument-card">
+                <h5>Bunga Deposito &amp; Tabungan</h5>
+                <p>Bunga deposito, tabungan, dan diskonto Sertifikat Bank Indonesia dikenakan PPh Final sebesar <strong>20%</strong> dari jumlah bruto.</p>
+              </div>
+              <div class="instrument-card">
+                <h5>Bunga/Diskonto Obligasi</h5>
+                <p>Dikenakan PPh Final dengan tarif tertentu (umumnya <strong>15%</strong> untuk Wajib Pajak dalam negeri) sesuai peraturan pemerintah yang berlaku.</p>
+              </div>
+              <div class="instrument-card">
+                <h5>Dividen (WP Orang Pribadi)</h5>
+                <p>Dividen yang diterima Wajib Pajak orang pribadi dalam negeri dikenakan PPh Final sebesar <strong>10%</strong>.</p>
+              </div>
+              <div class="instrument-card">
+                <h5>Hadiah Undian</h5>
+                <p>Hadiah undian (misalnya undian bank) dikenakan PPh Final sebesar <strong>25%</strong> dari nilai hadiah.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="acc-item">
+          <button class="acc-trigger">
+            <span class="acc-badge acc-badge-gold">B</span>
+            Properti &amp; Konstruksi <span class="acc-sub">(tarif final atas transaksi properti &amp; jasa konstruksi)</span>
+            <span class="acc-chevron">⌄</span>
+          </button>
+          <div class="acc-panel">
+            <div class="instrument-grid">
+              <div class="instrument-card">
+                <h5>Sewa Tanah dan/atau Bangunan</h5>
+                <p>Penghasilan dari persewaan tanah dan/atau bangunan (ruko, gudang, rumah, dll) dikenakan PPh Final sebesar <strong>10%</strong> dari jumlah bruto nilai sewa.</p>
+              </div>
+              <div class="instrument-card">
+                <h5>Pengalihan Hak atas Tanah/Bangunan</h5>
+                <p>Penghasilan dari penjualan/pengalihan tanah dan/atau bangunan dikenakan PPh Final sebesar <strong>2,5%</strong> dari nilai pengalihan.</p>
+              </div>
+              <div class="instrument-card">
+                <h5>Jasa Konstruksi</h5>
+                <p>Tarif final bervariasi sekitar <strong>1,75% &ndash; 6%</strong> tergantung kualifikasi usaha (kecil, menengah, besar) dan jenis pekerjaan (perencanaan, pelaksanaan, atau pengawasan).</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="acc-item">
+          <button class="acc-trigger">
+            <span class="acc-badge acc-badge-teal">C</span>
+            UMKM &amp; Transaksi Lain
+            <span class="acc-chevron">⌄</span>
+          </button>
+          <div class="acc-panel">
+            <div class="instrument-grid">
+              <div class="instrument-card">
+                <h5>PPh Final UMKM (PP 23 Tahun 2018)</h5>
+                <p>Wajib Pajak dengan peredaran bruto tertentu (UMKM) dikenakan PPh Final sebesar <strong>0,5%</strong> dari peredaran bruto (omzet) setiap bulan, dengan jangka waktu penggunaan tertentu.</p>
+              </div>
+              <div class="instrument-card">
+                <h5>Transaksi Penjualan Saham di Bursa</h5>
+                <p>Penjualan saham pendiri maupun bukan pendiri di bursa efek dikenakan PPh Final sebesar <strong>0,1%</strong> dari nilai transaksi penjualan.</p>
+              </div>
+              <div class="instrument-card">
+                <h5>Usaha Pelayaran/Penerbangan (Pasal 15)</h5>
+                <p>Menggunakan norma penghitungan khusus dengan tarif final tertentu atas peredaran bruto usaha di bidang pelayaran dan penerbangan.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="theory-block">
+      <h3>3. Ringkasan Tarif PPh Final</h3>
+      <p>Tabel berikut merangkum beberapa objek PPh Final yang paling sering dijumpai beserta tarif dan dasar pengenaannya.</p>
+      <div class="table-wrap">
+        <table class="compare-table">
+          <thead>
+            <tr><th>Objek Penghasilan</th><th>Tarif</th><th>Dasar Pengenaan</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Bunga Deposito/Tabungan</td><td>20%</td><td>Jumlah bruto bunga</td></tr>
+            <tr><td>Sewa Tanah dan/atau Bangunan</td><td>10%</td><td>Jumlah bruto nilai sewa</td></tr>
+            <tr><td>Hadiah Undian</td><td>25%</td><td>Nilai hadiah</td></tr>
+            <tr><td>Pengalihan Hak Tanah/Bangunan</td><td>2,5%</td><td>Nilai pengalihan</td></tr>
+            <tr><td>Dividen (WP Orang Pribadi)</td><td>10%</td><td>Jumlah bruto dividen</td></tr>
+            <tr><td>UMKM (PP 23/2018)</td><td>0,5%</td><td>Peredaran bruto (omzet) bulanan</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="risk-return-chart" id="riskReturnChart">
+        <p class="chart-title">Ilustrasi Perbandingan Tarif PPh Final</p>
+        <svg viewBox="0 0 640 320" class="rr-svg" role="img" aria-label="Grafik perbandingan tarif PPh Final">
+          <line x1="60" y1="270" x2="600" y2="270" stroke="var(--line)" stroke-width="2"/>
+          <line x1="60" y1="270" x2="60" y2="30" stroke="var(--line)" stroke-width="2"/>
+          <text x="300" y="305" class="rr-axis-label">Jenis Objek Penghasilan →</text>
+          <text x="20" y="150" class="rr-axis-label" transform="rotate(-90 20 150)">Tarif (%) →</text>
+
+          <rect x="100" y="255" width="34" height="15" class="rr-dot rr-teal"/><text x="90" y="285" class="rr-label">UMKM 0,5%</text>
+          <rect x="180" y="230" width="34" height="40" class="rr-dot rr-blue"/><text x="165" y="285" class="rr-label">Pengalihan 2,5%</text>
+          <rect x="260" y="150" width="34" height="120" class="rr-dot rr-blue"/><text x="255" y="285" class="rr-label">Sewa 10%</text>
+          <rect x="340" y="150" width="34" height="120" class="rr-dot rr-gold"/><text x="330" y="285" class="rr-label">Dividen 10%</text>
+          <rect x="420" y="70" width="34" height="200" class="rr-dot rr-gold"/><text x="400" y="285" class="rr-label">Bunga Depo 20%</text>
+          <rect x="500" y="45" width="34" height="225" class="rr-dot rr-teal"/><text x="485" y="285" class="rr-label">Hadiah 25%</text>
+        </svg>
+      </div>
+    </article>
+
+    <article class="theory-block">
+      <h3>4. Pencatatan dan Pelaporan PPh Final</h3>
+      <p>Bagi perusahaan/lembaga yang menerima penghasilan yang telah dipotong PPh Final oleh
+      pihak lain (pemotong pajak), PPh Final tersebut dicatat sebagai <strong>beban pajak
+      final</strong> &mdash; bukan sebagai piutang atau uang muka pajak, karena sifatnya final dan
+      tidak dapat dikreditkan kembali. Contoh jurnal sederhana saat menerima penghasilan sewa yang
+      sudah dipotong PPh Final:</p>
+      <div class="table-wrap">
+        <table class="compare-table">
+          <thead><tr><th>Akun</th><th>Debit</th><th>Kredit</th></tr></thead>
+          <tbody>
+            <tr><td>Kas/Bank</td><td>Sebesar penghasilan neto (setelah dipotong PPh Final)</td><td>&ndash;</td></tr>
+            <tr><td>Beban Pajak Final</td><td>Sebesar PPh Final yang dipotong</td><td>&ndash;</td></tr>
+            <tr><td>Pendapatan Sewa</td><td>&ndash;</td><td>Sebesar penghasilan bruto</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Bukti potong PPh Final dari pemotong pajak wajib disimpan sebagai dokumen pendukung, dan
+      penghasilan beserta PPh Final-nya tetap dicantumkan (dilaporkan) dalam SPT Tahunan pada
+      bagian penghasilan yang dikenakan pajak final &amp; bersifat final, meskipun tidak
+      memengaruhi perhitungan PPh terutang tahunan.</p>
+    </article>
+
+    <article class="theory-block quick-check">
+      <h3>5. Cek Pemahaman Cepat</h3>
+      <p>Jawab pertanyaan berikut untuk menguji pemahamanmu sebelum lanjut ke LKPD.</p>
+      <div class="qc-item" data-answer="b">
+        <p><strong>PPh yang sudah dipotong bersifat final artinya...</strong></p>
+        <div class="qc-options">
+          <button data-val="a">Dapat dikreditkan penuh di SPT Tahunan</button>
+          <button data-val="b">Tidak dapat diperhitungkan kembali sebagai kredit pajak</button>
+          <button data-val="c">Tidak perlu dilaporkan sama sekali</button>
+        </div>
+        <p class="qc-feedback"></p>
+      </div>
+      <div class="qc-item" data-answer="a">
+        <p><strong>Tarif PPh Final atas sewa tanah dan/atau bangunan adalah...</strong></p>
+        <div class="qc-options">
+          <button data-val="a">10%</button>
+          <button data-val="b">20%</button>
+          <button data-val="c">25%</button>
+        </div>
+        <p class="qc-feedback"></p>
+      </div>
+    </article>
+  </section>
+
+
+  <!-- ============ LKPD ============ -->
+  <section id="lkpd" class="page">
+    <header class="page-head">
+      <p class="page-eyebrow">Lembar Kerja Peserta Didik</p>
+      <h2>LKPD &mdash; Pajak Penghasilan Final</h2>
+      <p class="page-lead">Isi identitasmu sekali di bawah ini, lalu kerjakan ketiga aktivitas. Kamu bisa menyimpan hasil sebagai PDF atau langsung mengirimnya ke guru.</p>
+    </header>
+
+    <div class="identity-bar card">
+      <div class="field">
+        <label for="lkpdNama">Nama Siswa</label>
+        <input type="text" id="lkpdNama" placeholder="Tulis nama lengkap">
+      </div>
+      <div class="field">
+        <label for="lkpdKelas">Kelas</label>
+        <input type="text" id="lkpdKelas" placeholder="Contoh: XI AKL 1">
+      </div>
+    </div>
+
+    <div id="lkpdPrintArea">
+      <!-- AKTIVITAS 1 -->
+      <article class="lkpd-activity card" data-activity="Aktivitas 1: Mengklasifikasikan Objek PPh Final dan Tidak Final">
+        <div class="lkpd-activity-head">
+          <span class="lkpd-num">1</span>
+          <h3>Mengklasifikasikan Objek PPh Final dan Tidak Final</h3>
+        </div>
+
+        <div class="lkpd-sub">
+          <h4>Tujuan Pembelajaran</h4>
+          <p>Peserta didik mampu mengidentifikasi dan mengklasifikasikan berbagai jenis
+          penghasilan ke dalam kelompok objek PPh Final dan PPh Tidak Final.</p>
+        </div>
+        <div class="lkpd-sub">
+          <h4>Alat dan Bahan</h4>
+          <ul><li>Materi Teori Dasar pada modul ini</li><li>Alat tulis / perangkat untuk mengetik</li><li>Koneksi internet (opsional, untuk mencari referensi tambahan)</li></ul>
+        </div>
+        <div class="lkpd-sub">
+          <h4>Langkah Kerja</h4>
+          <ol>
+            <li>Baca kembali materi jenis-jenis objek PPh Final pada bagian Teori Dasar.</li>
+            <li>Amati lima jenis penghasilan pada tabel hasil pengamatan di bawah.</li>
+            <li>Tentukan kelompok (PPh Final / PPh Tidak Final) dan tuliskan satu alasan singkat untuk masing-masing.</li>
+          </ol>
+        </div>
+        <div class="lkpd-sub">
+          <h4>Hasil Pengamatan</h4>
+          <div class="table-wrap">
+            <table class="lkpd-table" id="a1-table">
+              <thead><tr><th>Jenis Penghasilan</th><th>Kelompok</th><th>Alasan</th></tr></thead>
+              <tbody>
+                <tr><td>Bunga Deposito</td><td><select><option value="">Pilih</option><option>PPh Final</option><option>PPh Tidak Final</option></select></td><td><input type="text" placeholder="Tulis alasan"></td></tr>
+                <tr><td>Gaji Karyawan Tetap</td><td><select><option value="">Pilih</option><option>PPh Final</option><option>PPh Tidak Final</option></select></td><td><input type="text" placeholder="Tulis alasan"></td></tr>
+                <tr><td>Sewa Ruko</td><td><select><option value="">Pilih</option><option>PPh Final</option><option>PPh Tidak Final</option></select></td><td><input type="text" placeholder="Tulis alasan"></td></tr>
+                <tr><td>Jasa Konsultan (Honor)</td><td><select><option value="">Pilih</option><option>PPh Final</option><option>PPh Tidak Final</option></select></td><td><input type="text" placeholder="Tulis alasan"></td></tr>
+                <tr><td>Hadiah Undian Bank</td><td><select><option value="">Pilih</option><option>PPh Final</option><option>PPh Tidak Final</option></select></td><td><input type="text" placeholder="Tulis alasan"></td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="lkpd-sub">
+          <h4>Pertanyaan Diskusi</h4>
+          <div class="field"><label>1. Mengapa bunga deposito dikenakan PPh Final, sedangkan gaji karyawan dikenakan PPh Tidak Final?</label><textarea rows="3"></textarea></div>
+          <div class="field"><label>2. Apa konsekuensinya bagi Wajib Pajak jika suatu penghasilan bersifat final saat menyusun SPT Tahunan?</label><textarea rows="3"></textarea></div>
+        </div>
+      </article>
+
+      <!-- AKTIVITAS 2 -->
+      <article class="lkpd-activity card" data-activity="Aktivitas 2: Menghitung PPh Final">
+        <div class="lkpd-activity-head">
+          <span class="lkpd-num">2</span>
+          <h3>Menghitung PPh Final</h3>
+        </div>
+        <div class="lkpd-sub">
+          <h4>Tujuan Pembelajaran</h4>
+          <p>Peserta didik mampu menghitung besarnya PPh Final atas dua kasus penghasilan yang berbeda.</p>
+        </div>
+        <div class="lkpd-sub">
+          <h4>Alat dan Bahan</h4>
+          <ul><li>Kalkulator / kalkulator ponsel</li><li>Data ilustrasi pada tabel di bawah</li></ul>
+        </div>
+        <div class="lkpd-sub">
+          <h4>Langkah Kerja</h4>
+          <ol>
+            <li>Kasus 1: Bu Wati menyewakan gudang dengan nilai sewa Rp60.000.000/tahun. Tarif PPh Final sewa tanah/bangunan adalah 10%.</li>
+            <li>Kasus 2: Pak Rudi memiliki usaha UMKM dengan omzet Rp18.000.000 pada bulan berjalan, memenuhi syarat PP 23/2018 dengan tarif 0,5%.</li>
+            <li>Hitung PPh Final masing-masing kasus, tuliskan hasil dan cara perhitungannya pada tabel pengamatan.</li>
+          </ol>
+        </div>
+        <div class="lkpd-sub">
+          <h4>Hasil Pengamatan</h4>
+          <div class="table-wrap">
+            <table class="lkpd-table">
+              <thead><tr><th>Kasus</th><th>Dasar Pengenaan</th><th>Tarif</th><th>PPh Final (Rp)</th></tr></thead>
+              <tbody>
+                <tr><td>Sewa Gudang (Bu Wati)</td><td>Rp60.000.000</td><td>10%</td><td><input type="text" placeholder="Hasil perhitunganmu"></td></tr>
+                <tr><td>UMKM (Pak Rudi)</td><td>Rp18.000.000</td><td>0,5%</td><td><input type="text" placeholder="Hasil perhitunganmu"></td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="lkpd-sub">
+          <h4>Pertanyaan Diskusi</h4>
+          <div class="field"><label>1. Siapa pihak yang wajib memotong dan menyetorkan PPh Final pada kasus sewa gudang tersebut?</label><textarea rows="3"></textarea></div>
+          <div class="field"><label>2. Apa keuntungan skema tarif 0,5% dari omzet bagi pelaku UMKM dibanding dihitung dari laba bersih dengan tarif umum?</label><textarea rows="3"></textarea></div>
+        </div>
+      </article>
+
+      <!-- AKTIVITAS 3 -->
+      <article class="lkpd-activity card" data-activity="Aktivitas 3: Studi Kasus Pencatatan dan Pelaporan PPh Final">
+        <div class="lkpd-activity-head">
+          <span class="lkpd-num">3</span>
+          <h3>Studi Kasus Pencatatan dan Pelaporan PPh Final</h3>
+        </div>
+        <div class="lkpd-sub">
+          <h4>Tujuan Pembelajaran</h4>
+          <p>Peserta didik mampu menganalisis pencatatan akuntansi dan kewajiban pelaporan atas
+          transaksi yang dikenakan PPh Final.</p>
+        </div>
+        <div class="lkpd-sub">
+          <h4>Alat dan Bahan</h4>
+          <ul><li>Studi kasus di bawah</li><li>Materi pencatatan &amp; pelaporan PPh Final pada bagian Teori Dasar</li></ul>
+        </div>
+        <div class="lkpd-sub">
+          <h4>Langkah Kerja</h4>
+          <ol>
+            <li>Baca studi kasus berikut: <em>"CV Sejahtera menerima penghasilan sewa ruko sebesar Rp100.000.000 dari penyewa. Penyewa telah memotong PPh Final 10% sebelum membayarkan sisanya kepada CV Sejahtera, dan menyerahkan bukti potong."</em></li>
+            <li>Diskusikan bagaimana CV Sejahtera seharusnya mencatat penerimaan tersebut dalam pembukuannya.</li>
+            <li>Tuliskan jurnal/pencatatan yang menurutmu tepat beserta penjelasannya di bawah.</li>
+          </ol>
+        </div>
+        <div class="lkpd-sub">
+          <h4>Hasil Pengamatan / Jurnal yang Diusulkan</h4>
+          <div class="field"><label>Jumlah kas/bank yang diterima CV Sejahtera</label><input type="text" placeholder="Tulis perhitunganmu"></div>
+          <div class="field"><label>Akun-akun yang terlibat beserta nilainya</label><textarea rows="4" placeholder="Contoh: Kas/Bank (debit) ..., Beban Pajak Final (debit) ..., Pendapatan Sewa (kredit) ..."></textarea></div>
+        </div>
+        <div class="lkpd-sub">
+          <h4>Pertanyaan Diskusi</h4>
+          <div class="field"><label>1. Dokumen apa yang wajib disimpan CV Sejahtera sebagai bukti pemotongan PPh Final tersebut?</label><textarea rows="3"></textarea></div>
+          <div class="field"><label>2. Apakah PPh Final Rp10.000.000 tersebut bisa dikreditkan CV Sejahtera saat menghitung PPh badan terutang di akhir tahun? Jelaskan.</label><textarea rows="3"></textarea></div>
+        </div>
+      </article>
+    </div>
+
+    <div class="lkpd-actions">
+      <button class="btn btn-ghost" id="btnSavePdf">⬇ Simpan sebagai PDF</button>
+      <button class="btn btn-primary" id="btnKirimLkpd">➤ Kirim ke Guru</button>
+    </div>
+    <p class="form-status" id="lkpdStatus"></p>
+  </section>
+
+  <!-- ============ QUIZ ============ -->
+  <section id="quiz" class="page">
+    <header class="page-head">
+      <p class="page-eyebrow">Quiz</p>
+      <h2>Uji Kemampuanmu Sambil Bermain</h2>
+      <p class="page-lead">Dua permainan seru seputar istilah dan klasifikasi PPh Final.</p>
+    </header>
+
+    <div class="quiz-tabs">
+      <button class="quiz-tab active" data-quiz="dragdrop">🧩 Drag &amp; Drop</button>
+      <button class="quiz-tab" data-quiz="wordsearch">🔎 Cari Kata</button>
+    </div>
+
+    <!-- DRAG & DROP -->
+    <div class="quiz-panel active" id="quiz-dragdrop">
+      <p class="quiz-instruction">Seret setiap kartu penghasilan ke kotak kelompok yang benar: <strong>PPh Final</strong> atau <strong>PPh Tidak Final</strong>.</p>
+      <div class="dd-wrapper">
+        <div class="dd-pool" id="ddPool"></div>
+        <div class="dd-targets">
+          <div class="dd-target" data-group="PPh Final">
+            <h4>PPh Final</h4>
+            <div class="dd-dropzone" data-group="PPh Final"></div>
+          </div>
+          <div class="dd-target" data-group="PPh Tidak Final">
+            <h4>PPh Tidak Final</h4>
+            <div class="dd-dropzone" data-group="PPh Tidak Final"></div>
+          </div>
+        </div>
+      </div>
+      <div class="quiz-footer">
+        <p id="ddScore">Skor: 0 / 8</p>
+        <button class="btn btn-ghost" id="ddReset">↺ Ulangi</button>
+      </div>
+    </div>
+
+    <!-- WORD SEARCH -->
+    <div class="quiz-panel" id="quiz-wordsearch">
+      <p class="quiz-instruction">Temukan 8 istilah PPh Final yang tersembunyi di dalam kotak huruf. Klik dan seret dari huruf awal ke huruf akhir kata.</p>
+      <div class="ws-wrapper">
+        <div class="ws-grid" id="wsGrid"></div>
+        <div class="ws-words">
+          <h4>Kata yang dicari</h4>
+          <ul id="wsWordList"></ul>
+          <p id="wsScore">Ditemukan: 0 / 8</p>
+          <button class="btn btn-ghost" id="wsReset">↺ Ulangi</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EVALUASI ============ -->
+  <section id="evaluasi" class="page">
+    <header class="page-head">
+      <p class="page-eyebrow">Evaluasi Akhir</p>
+      <h2>Evaluasi &mdash; Pajak Penghasilan Final</h2>
+      <p class="page-lead">20 soal (10 pilihan ganda + 5 pilihan ganda kompleks + 5 esai). Kerjakan dengan teliti, evaluasi hanya bisa dikerjakan satu kali.</p>
+    </header>
+
+    <!-- Layar 1: Tombol mulai -->
+    <div id="evalStart" class="card eval-start">
+      <h3>Siap memulai evaluasi?</h3>
+      <p>Isi nama dan kelasmu, lalu klik tombol di bawah untuk melihat petunjuk pengerjaan.</p>
+      <div class="identity-bar">
+        <div class="field"><label for="evalNama">Nama Siswa</label><input type="text" id="evalNama" placeholder="Tulis nama lengkap"></div>
+        <div class="field"><label for="evalKelas">Kelas</label><input type="text" id="evalKelas" placeholder="Contoh: XI AKL 1"></div>
+      </div>
+      <button class="btn btn-primary" id="btnBukaPetunjuk">Mulai Evaluasi</button>
+      <p class="form-status" id="evalCheckStatus"></p>
+    </div>
+
+    <!-- Modal Petunjuk -->
+    <div class="modal-overlay" id="modalPetunjuk">
+      <div class="modal-box">
+        <h3>Petunjuk Pengerjaan</h3>
+        <ul>
+          <li>Evaluasi terdiri dari <strong>20 soal</strong>: 10 soal pilihan ganda biasa (5 opsi jawaban, pilih satu), 5 soal pilihan ganda kompleks (boleh pilih lebih dari satu jawaban benar), dan 5 soal esai.</li>
+          <li>Pada soal <strong>pilihan ganda kompleks</strong>, centang <em>semua</em> opsi yang menurutmu benar &mdash; jawaban dinilai benar hanya jika seluruh opsi benar tercentang dan tidak ada opsi salah yang ikut tercentang.</li>
+          <li>Seluruh soal ditampilkan dalam satu halaman &mdash; kerjakan berurutan atau bebas.</li>
+          <li>Pastikan seluruh soal terjawab sebelum menekan tombol <strong>Selesai &amp; Lihat Skor</strong>.</li>
+          <li>Skor soal objektif (pilihan ganda biasa + kompleks) muncul otomatis di akhir; jawaban esai akan diperiksa oleh guru.</li>
+          <li><strong>Evaluasi hanya dapat dikerjakan satu kali</strong>, jadi pastikan kamu sudah siap.</li>
+        </ul>
+        <button class="btn btn-primary" id="btnMulaiSoal">Saya Mengerti, Mulai Sekarang</button>
+      </div>
+    </div>
+
+    <!-- Layar 2: Soal -->
+    <form id="evalForm" class="eval-form">
+      <div id="evalQuestions"></div>
+      <button type="submit" class="btn btn-primary btn-block" id="btnSubmitEval">Selesai &amp; Lihat Skor</button>
+    </form>
+
+    <!-- Layar 3: Hasil -->
+    <div id="evalResult" class="card eval-result">
+      <h3>Evaluasi Selesai 🎉</h3>
+      <div class="score-circle" id="scoreCircle">
+        <span id="scoreNum">0</span>
+        <small>/ 100</small>
+      </div>
+      <p id="scoreDetail" class="muted"></p>
+      <p class="callout">Jawaban esaimu telah dikirim dan akan dinilai langsung oleh gurumu.</p>
+    </div>
+  </section>
+
+  <!-- ============ DAFTAR NILAI ============ -->
+  <section id="nilai" class="page">
+    <header class="page-head">
+      <p class="page-eyebrow">Rekap</p>
+      <h2>Daftar Nilai Evaluasi</h2>
+      <p class="page-lead">Daftar skor objektif (pilihan ganda + pilihan ganda kompleks) seluruh siswa yang sudah mengerjakan evaluasi, diurutkan dari nilai tertinggi.</p>
+    </header>
+
+    <!-- Layar kunci -->
+    <div class="card nilai-lock" id="nilaiLock">
+      <h3>🔒 Khusus Guru</h3>
+      <p>Masukkan kata sandi untuk melihat daftar nilai siswa.</p>
+      <div class="field" style="max-width:280px;">
+        <label for="nilaiPassword">Kata Sandi</label>
+        <input type="password" id="nilaiPassword" placeholder="Masukkan kata sandi">
+      </div>
+      <button class="btn btn-primary" id="btnBukaNilai">Buka Daftar Nilai</button>
+      <p class="form-status" id="nilaiLockStatus"></p>
+    </div>
+
+    <!-- Konten (tampil setelah kata sandi benar) -->
+    <div id="nilaiContent" style="display:none;">
+      <div class="card nilai-toolbar">
+        <div class="field" style="max-width:220px;">
+          <label for="nilaiFilterKelas">Filter Kelas</label>
+          <select id="nilaiFilterKelas"><option value="">Semua Kelas</option></select>
+        </div>
+        <button class="btn btn-ghost" id="btnRefreshNilai">↻ Muat Ulang</button>
+      </div>
+
+      <div class="table-wrap card" style="padding:0;">
+        <table class="compare-table" id="nilaiTable">
+          <thead>
+            <tr><th>#</th><th>Nama Siswa</th><th>Kelas</th><th>Benar</th><th>Skor Objektif</th><th>Waktu Mengerjakan</th></tr>
+          </thead>
+          <tbody id="nilaiTableBody">
+            <tr><td colspan="6" class="muted" style="text-align:center; padding:24px;">Memuat data...</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="form-status" id="nilaiStatus"></p>
+    </div>
+  </section>
+
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<script src="config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
