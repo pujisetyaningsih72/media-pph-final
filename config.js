@@ -6,8 +6,8 @@
    - anon public   -> SUPABASE_ANON_KEY
    ========================================================= */
 
-const SUPABASE_URL = "GANTI_DENGAN_PROJECT_URL_ANDA";
-const SUPABASE_ANON_KEY = "GANTI_DENGAN_ANON_KEY_ANDA";
+const SUPABASE_URL = "https://mbxlvvmvewzflivfdrzu.supabase.co";
+const SUPABASE_ANON_KEY = "sb_publishable_xeAsgUDPP5ke9ews-syZ9Q_pr7_3WGP";
 
 /* Kata sandi sederhana untuk membuka halaman "Daftar Nilai" (khusus guru).
    Ganti dengan kata sandi pilihan Anda sendiri.
